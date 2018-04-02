@@ -1,0 +1,13 @@
+body{
+	background-color: #005aba;	
+}
+.loginform{
+	background: none repeat scroll 0 0 #ffffff;
+    border-radius: 7px;
+    box-shadow: 0 0 4px #000000;
+    overflow: hidden !important;
+    position: relative;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 400px;
+}

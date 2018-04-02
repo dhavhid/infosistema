@@ -1,0 +1,66 @@
+/* Hoja de estilos para impresion */
+@media print{
+	@page { size:8.5in 11in; margin: 1.1cm; }
+	.btn{display:none;}
+}
+body{font-family: 'PT Sans';}
+thead {display: table-header-group;}
+.titulo_seccion{
+	border:0px none transparent;
+	border-top: 2px solid #555;
+	page-break-after: avoid;
+}
+.titulo_seccion h3{
+	text-transform:uppercase;
+	font-size: 13px;
+	font-family: 'PT Sans Bold';
+	position: absolute;
+	top: -30px;
+	margin: 0 auto;
+	padding:5px;
+	background-color: #FFF;
+}
+ul li{
+	font-family: 'PT Sans';
+	list-style: circle;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+ul li span{
+	font-family: 'Lato Italic';
+	color: #777;
+	font-weight: normal;	
+}
+/* Hoja de estilos para el contrato */
+div.contrato,
+div.contrato li,
+div.contrato h3{
+	font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div.contrato h3{
+	text-transform: uppercase;
+}
+div.contrato span,
+div.contrato_subtitulo{
+	font-family: "PT Sans Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+div.contrato p,
+div.contrato li{
+	text-align: justify;
+	letter-spacing: 0.8px;
+	font-weight: normal;
+}
+div.contrato span{
+	color: #0057ad;
+	text-transform: uppercase;
+}
+div.contrato_subtitulo{
+	margin-bottom: 10px;
+}
+div.contrato ul li{
+	list-style: disc;
+}
+div.contrato ul li ol li,
+div.contrato ol.letras li{
+	list-style: lower-alpha;
+}

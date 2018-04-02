@@ -1,0 +1,1 @@
+<h1>Error en la conexi&oacute;n a la base de datos.</h1>
